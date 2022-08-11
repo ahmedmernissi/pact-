@@ -1,0 +1,31 @@
+=== Modifications (PAN2+)
+
+==== Modifications du rapport après le PAN1
+
+* Amélioration de la présentation de l'architecture.
+* Amélioration des interfaces.
+
+
+
+==== Modifications du rapport au PAN2
+
+Nous n’avons pas eu besoin de faire évoluer le rapport au PAN2.
+
+////
+===== Modifications du rapport au PAN3
+
+Dolor aliquam elit, a commodo nisi felis nec nibh. Nulla facilisi. Etiam
+at tortor. Vivamus quis sapien nec magna scelerisque lobortis.
+
+Curabitur tincidunt viverra justo. Cum sociis natoque penatibus et
+magnis dis parturient montes, nascetur ridiculus mus. Sed eros ante,
+mattis ullamcorper, posuere quis, tempor vel, metus. Maecenas cursus
+cursus lacus. Sed.
+
+===== Modifications du rapport au PAN4
+
+Hac habitasse platea dictumst. Cras quis lacus. Vestibulum rhoncus
+congue lacus. Vivamus euismod, felis quis commodo viverra, dolor elit
+dictum ante, et mollis eros augue at est. Class aptent taciti sociosqu
+ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla
+lectus sem, tristique sed, semper in, hendrerit non, sem. Vivamus.

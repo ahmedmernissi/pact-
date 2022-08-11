@@ -1,0 +1,11 @@
+=== Module Systèmes embarqués
+
+==== Descriptions
+
+Ce module regroupe la mise en fonctionnement des différents composants qui permettent à l'utilisateur de vivre l'expérience (vibreurs, tissu chauffant, ventilateur), la récupération et la conversion des données provenant des autres modules suite au traitement de l'oeuvre. Il consiste également à mettre en forme les composants pour proposer à l'utilisateur une agréable prise en main du boîtier final, qui devrait être un tube fermé des deux côtés en perçant des trous pour laisser passer la ventilation. 
+
+=== Avancement
+
+Nous utilisons un programme Python qui envoie les intensités reçues sous forme de matrice vers la carte Arduino, reliée à un premier prototype physique temporaire. En fonction des valeurs, la carte met en marche vibreurs, ventilateur et tissu chauffant de manière indépendante. Hormis les vibreurs, les autres systèmes nécessitent une alimentation, pour laquelle nous pouvons utiliser une sur secteur ou des batteries Lipo. Il est possible de laisser des délais entre l'allumage et la mise à zéro des composants mais pas pour chacun à des moments différents actuellement.  
+
+Nous essayons en ce moment d'implémenter la communication Bluetooth pour envoyer les informations depuis Python via Bluetooth, et le décodage de toutes les valeurs possibles a été effectué. 

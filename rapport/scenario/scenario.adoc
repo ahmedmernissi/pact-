@@ -1,0 +1,11 @@
+=== Scénario – Sens'Art
+
+
+Les personnes atteintes de cécité, et toute personne désirant avoir une expérience artistique différente pourraient être intéressées par le projet que nous voulons mettre en place: Sens’Art
+
+Paul est au Louvre. Il voudrait «ressentir» une œuvre d’art, plus précisemment un tableau. Le musée lui fournit un boîtier relié à un casque auditif. Ce boîtier est un cube qu’il prend dans le creux de sa main et qu’il accroche autour du dos de la main grâce à un scratch. Il sélectionne ensuite une oeuvre d'art grâce a un menu audio et trois boutons.  
+Le boîtier propose alors une expérience auditive et tactile qui a pour but de retranscrire l’ambiance du tableau. Le son provient d’un casque intégré au boîtier. Il diffuse une musique ainsi que des bruitages. Les sensations de chaud, de froid et les vibrations proviennent de dispositifs situés sous une membrane qu'il puisse toucher et qui permet de bien transmettre les sensations. L’expérience dure quelques minutes (2-3). Dans le cas où Paul n'arrive pas à sélectionner l’œuvre qu'il veut voir, il y aurait un système de secours où le boîtier liste les œuvres et Paul la choisit manuellement.
+
+Modification possible:
+	Dans le musée, une salle pourrait être réservée aux personnes voulant tenter cette expérience. Elle serait silencieuse et favoriserait donc une immersion totale, et il y aurait des fauteuils pour s'installer. Le boîtier pourrait être plus gros et posé sur les genoux, facilitant l’expérience tactile. Les œuvres pourraient défiler une à une, comme une exposition faisant appel aux sens.
+

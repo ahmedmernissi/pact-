@@ -1,0 +1,12 @@
+set %HOST%, %PORT%
+
+$MDP
+
+
+CREATE USER master CREATEDB CREATEROLE PASSWORD $MDP;
+\c postgres master;    :: -%HOST%-%PORT%-'PACT25'};
+    $MDP
+CREATE USER loggin PASSWORD $MDP;
+createdb sens-art;                                                  :: Arguments pour dire ou ?
+\c sens-art loggin;
+    $MDP

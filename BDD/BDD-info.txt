@@ -1,0 +1,5 @@
+PORT=3000
+HOST=mariadb
+DB="sens-art"
+USER=postgres
+PASSWORD="PACT25"

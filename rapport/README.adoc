@@ -1,0 +1,143 @@
+= Rapport d’avancement du groupe “2.5”
+ifdef::env-gitlab,env-browser[:outfilesuffix: .adoc]
+:doctype: book
+:stem: latexmath
+:source-highlighter: coderay
+:toc-title: Table des matières
+:toc: macro
+:sectnums:
+:imagesdir: images
+
+
+// Partie non numérotée
+:sectnums!:
+== Pact 2.5
+
+=== Membres du groupe
+
+* Théophile Reverdell
+* Basile Rulh
+* Loïc Marcadet
+* Agathe Coutaux
+* Quentin Ravaux
+* Laure-Amélie Colin
+* Quentin Roques
+* Ahmed Mernissi
+
+=== Tuteur
+
+* Jean Le Feuvre
+
+=== Encadrant génie logiciel
+
+* Lucien Maman
+
+== Résumé du sujet choisi en français (PAN1)
+
+*_Note: 15 lignes max_*
+
+Notre projet est en accord avec la problématique "Le numérique
+au service de l'être humain". En effet, il s'adresse aux personnes
+atteintes de cécité et aux personnes désirant avoir une
+expérience artistique différente.
+
+C'est un boitier relié à un casque auditif qui se prend dans le
+creux de la main et qui a pour objectif d'essayer de transformer
+un tableau en sensations. A partir d'une étude au préalable de
+l'oeuvre, il proposerait une expérience de quelques minutes
+stimulant aussi bien l'audition, avec une ambiance sonore ainsi
+que des bruitages, que le toucher, diffusant des sensations de
+chaud, de froid et des vibrations. L'idée est de vivre une oeuvre
+d'art, à défaut de la voir.
+
+L'approche que nous proposons est entièrement subjective puisque
+l'analyse d'un tableau fait appel à un ressenti personnel. Nous
+ne prétendons pas transformer de manière rigoureuse les oeuvres.
+
+
+== English Summary (PAN1)
+
+*_Note : 15 lignes max, version anglaise du texte précédent_*
+
+Our project responds to the key question "Digital serving humans".
+Indeed, it concerns blind people as well as people that want to
+experiment a new way to discover paintings.
+
+It is a case, combined with headphones, held by the visitor and
+that aims at trying to convert a painting into feelings. With a
+previous study of the artwork, it would offer a few minute long
+experience that would stimulate hearing, with a musical atmosphere
+and sound effects, as well as touching, transmiting hot, cold
+feelings and vibrations. The idea is feeling an artwork, when
+one is enable to see it.
+
+Our approach is completely subjective as the analysis of a painting
+appeals to a personal feeling. We do not intend to transform the
+artworks in a rigorous way.
+
+
+
+// en PDF on ne peut pas controler la position de la toc
+// Macros non supportées
+ifndef::backend-pdf[]
+== Table des matières
+:toc-title:
+toc::[]
+endif::[]
+
+// On numérote le reste des sections
+:sectnums:
+
+== Étude d’antériorité et justification de la proposition (PAN1)
+
+include::proposition/proposition.adoc[Description de la proposition]
+
+include::proposition/etat-de-l-art.adoc[Description de l’état de l’art]
+
+== Scénarios d’usage (PAN1)
+
+include::scenario/scenario.adoc[Scénarios d’usage]
+
+<<<
+
+== Architecture du projet (PAN1)
+
+include::architecture/schema.adoc[Schéma d’architecture]
+
+include::architecture/interfaces.adoc[Description des interfaces]
+
+//include::architecture/sequence.adoc[Diagramme de séquence]
+
+include::architecture/ihm.adoc[Interface utilisateur graphique]
+
+include::architecture/taches.adoc[Tableau détaillé des tâches]
+
+<<<
+
+== Organisation du projet (PAN1)
+
+include::organisation/planification.adoc[Diagramme de planification temporel des tâches]
+
+include::organisation/repartition.adoc[Répartition des élèves par module]
+
+//include::organisation/plan-tests.adoc[Plans de test (PAN2+)]
+
+<<<
+
+[bibliography]
+== Bibliographie (PAN1+)
+
+include::References.adoc[Bibliographie]
+
+<<<
+
+== Annexes
+
+//include::annexes/modifications.adoc[Modifications (PAN2+)]
+
+//include::annexes/avancement.adoc[Avancement des modules]
+
+//include::annexes/moduleX.adoc[Avancement module X]
+
+//include::annexes/moduleY.adoc[Avancement module Y]
+include::../test_integration/Plan_integration.adoc[Plan Test et intégration]

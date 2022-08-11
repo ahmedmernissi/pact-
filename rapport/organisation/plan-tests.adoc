@@ -1,0 +1,156 @@
+=== Plans de test (PAN2+)
+
+Vous allez travailler sur chaque bloc de votre projet, et qu’il soit
+informatique, électronique ou matériel, vous allez devoir faire du
+test :
+
+* tester que le bloc que vous venez de finir fait ce qu’il faut ;
+* tester que le bloc fonctionne avec les blocs en amont ou en aval dans
+l’architecture ;
+* tester que les performances sont acceptables…
+* et plus globalement, tester que le projet « marche ».
+
+Vous allez devoir faire ce travail sur le prototype allégé, puis sur le
+prototype final. C’est un travail dans le module « intégration et
+tests ».
+
+Cette section rassemble les plans de test du proto allégé et du proto
+final. C’est une liste des tests à effectuer, sous la forme, pour chaque
+test :
+
+* situation/contexte
+* action ou entrée à appliquer
+* réaction ou sortie attendue.
+
+=== BDD :
+
+* Test de init() :
+** Dans une BDD construite "a la main", appliquer la fonction init().
+** Vérifier que les différentes tables sont crées.
+
+* Test de la fonction obj.createID():
+** à partir d'une BDD remplie a la main, essayer de trouver un ID pour la prochaine oeuvre.
+** Vérifier qu'on reprend bien l'ID si l'oeuvre appartien déjà a la BDD, et qu'on prend l'ID suivant sinon.
+
+* Test de la classe Artist :
+** Essayer de créer un artiste et le push, puis supprimer l'ariste et le get.
+** L'artiste a la fin doit être semblable à celui initial.
+
+* Test de la classe Work :
+** Télécharger l'image de l'oeuvre, créer l'objet Work, le push, supprimer l'objet et l'image en local, puis getWork.
+** Vérifier que l'image obtenue est la bonne, et que l'objet Work est semblable a l'objet work initial.
+
+* Test de la classe Script :
+** Semblable a artist, modifier "createID".
+
+* Test de la classe SoundEffects :
+** Semblable a Work.
+
+* Test de getAllWork():
+** Vérifier sur une base de donnée avec des trous.
+** Vérifier qu'on obtient bien un tableau exaustif et sans valeur None dedans.
+
+
+=== Son :
+
+* Test de l'ouverture d'une ambiance de MyNoise.net :
+** On entre le nom de l'ambiance à ouvrir.
+** Vérifier que l'on entend bien l'ambiance et que Firefox a été lancé.
+
+* Test pour bouger un curseur d'une ambiance de MyNoise.net :
+** On entre le nom de l'ambiance et du curseur à monter ou descendre.
+** Vérifier que l'on entend bien plus ou moins le bruit du curseur en question.
+
+* Test d'une pause entre les moments où l'on bouge les curseurs d'une ambiance de MyNoise.net :
+** On entre le nom de l'ambiance, les curseurs à modifier et le temps de pause.
+** Vérifier que les sons des curseurs sont bien stables pendant le temps où l'on fait la pause.
+
+* Test de la modification du volume sonore :
+** On choisi le volume que l'on veut avoir.
+** Vérifier que le volume est bien adapté.
+
+* Test d'une transition douce entre la modification de curseur :
+** On choisi la transition que l'on veut avoir.
+** Vérifier que le son est bien adapté.
+
+* Test de MakeNoise(Noise,ListIntensity,timer) :
+** On entre différentes ambiances sonores, différentes matrices d'intensitées et durées d'expérience.
+** Vérifier que l'on entend bien tout correctement.
+
+=== IA image :
+
+* Test de l'analyse de plusieurs oeuvres avec MaskRCNN :
+** On entre l'image que l'on veut analyser.
+** Vérifier que le programme identifie correctement les éléments de l'oeuvre.
+
+* Test de model() :
+** On a choisi l'ensemble des tableaux.
+** Vérifier que l'on créer bien un dossier avec toutes les oeuvres.
+
+* Test de RGB_folder(folder) :
+** On entre le dossier contenant tous nos tableaux.
+** Vérifier que l'on obtient bien une matrice de la valeur moyenne de rouge, vert et bleu pour chaque tableau.
+
+* Test de RGB_image(image) :
+** On entre le tableau que l'on veux analyser.
+** Vérifier que l'on obtient bien une matrice de la valeur moyenne de rouge, vert et bleu sur le tableau.
+
+* Test de vibreurs(image) :
+** On entre le tableau que l'on veux analyser.
+** Vérifier que l'on obtient bien une matrice indiquant l'intensité des vibreurs, et la présence de chaleur et du ventilateur.
+
+* Test de matrice_ambiance_sonore(image) :
+** On entre le tableau que l'on veux analyser.
+** Vérifier que l'on obtient bien la matrice indiquant l'intensité de chaque éléments modifiable dans l'ambiance sonore de MyNoise.net.
+
+=== Analyse de texte :
+
+* Test du prétraitement d'un texte :
+** Séparation des mots 
+** On enlève la ponctuation
+** On enlève les stop-words
+** Vérifier que l'on a bien une liste de mots en sortie
+
+* Test du réseau de neuronne à la main :
+** Initialisation des poids et des vecteurs mots aléatoire
+** Entrainement du réseau sur un corpus de texte
+** Vérifier que l'on a bien un dictionnaire en sortie avec les mots et leur vecteur associé
+
+* Test du réseau Camembert :
+** Implémentation du réseau
+** Extraire la dernière couche qui correspond à la liste des vecteurs mots de la phrase
+
+* Test du classifier de sentiments :
+** Entrainement du réseau sur une petite data labellisée à la main
+** Automatisation de la labellisation
+** Le test n'est pas concluant
+
+* Test de l'analyse de sentiments positifs ou negatifs :
+** Donner une phhrase en entrée
+** Vérifier que cela donne un nombre entre 0 et 1
+** 0 correspond à un sentiment négatif et le reste un sentiment positif
+
+=== Systèmes embarqués :
+
+* Test de l'envoi de commandes entre Python et Arduino:
+** Implémentation d'une fonction senc_cmd sous Python qui envoie des données au programme Arduino
+** Envoi d'une confirmation de la part du programme Arduino dans le moniteur série pour attester de la réception de la commande
+** Impression de témoins dans la console Python pour vérifier que les confirmations de commandes Arduino ont bien été reçues
+
+* Test du fonctionnement des vibreurs
+** Vérification que le vibreur s'allume et s'éteint en fonction des commandes
+** Test de la modulation pwm sur les vibreurs avec puissance et durée de vibration
+** Mise en fonctionnement de plusieurs vibreurs en simultannée avec des consignes différentes
+
+* Test du fonctionnement du tissu chauffant
+** Mesure de la puissance nécessaire pour une température satisfaisante
+** Mesure du temps nécessaire à une chauffe suffisante du tissu
+** Mesure du temps nécessaire au refroidissement du tissu
+
+* Test du fonctionnement du ventilateur
+** Vérification du bon fonctionnement sous tension maximale supportée
+** Test des sensations procurées lorsque le ventilateur est intégré au support physique
+
+* Test des composants en simultannée avec des commandes différentes
+
+

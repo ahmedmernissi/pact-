@@ -1,0 +1,17 @@
+=== Module Test et Intégration
+
+==== Descriptions
+
+Le but de Test et Intégration est d'intégrer les différents modules afin d'avoir une version fonctionnelle du projet. Pour cela, on affectue des tests à chaque nouvelle version du projet sur une branch git dédiée et on la merge sur master si la version fonctionne normalement.
+
+=== Avancement
+
+Nous avons fait des jobs sur gitlab ci afin de vérifier les liens entre les différents modules.
+Nous avons créé la base de données puis nous avons mis les données dedans. Nous avons donc pour chaque module, récupéré, traité puis pushé les données dans la base de données.
+Notre premier test constituait à vérifier le bon fonctionnement du lien entre la création de la base données et l'implémentation des données.
+Ensuite nous avons vérifié le lien entre la base de données, les données et le traitement par l'IA image.
+Puis nous avons vérifié le lien entre la base de données, les données et le traitement par l'analyse de texte.
+Ensuite nous avons récupéré les données traitées et nous avons executé le module de test pour les systèmes embarqués.
+Enfin nous avons effectué un test final où nous avons executé le projet dans son intégralité avec tous les liens fonctionnels.
+Une fois que tous les tests étaient concluants, nous avons mergé la version du projet dans la branche master.
+Pour l'organisation du dépot git, chaque module a mergé son code dans la branche dev et si les tests ne sont pas concluants, les modules fixent leur code dans leur branche dédiée puis une fois corrigé merge leur code dans dev.

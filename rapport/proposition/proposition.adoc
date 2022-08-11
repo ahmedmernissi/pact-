@@ -1,0 +1,19 @@
+=== Description de la proposition
+*_Sens'Art_*
+
+=== Motivations de base
+Comment les personnes malvoyantes peuvent-elles profiter des oeuvres d'arts visuelles? 
+Bien sûr ces personnes peuvent utiliser des audioguides mais cela ne les aide pas à *ressentir* les émotions que l'artiste a voulu transmettre dans son oeuvre. Les personnes malvoyantes perdent alors ce qui fait de l'art quelquechose d'unique. 
+"Une oeuvre d'art qui n'a pas commencé dans l'émotion n'est pas de l'art" Paul Cézane. 
+Cette citation ne permet de prendre conscience à quel point le lien entre émotions et art est fort. Ceci explique pourquoi une simple description de l'oeuvre grâce à un audioguide n'est pas suffisante. Elle ne permet pas de *faire vivre pleinement une peinture*, c'est pourquoi nous avons envisagé de créer une *expérience sensorielle complète* pour une peinture.
+
+=== Description du projet
+Notre projet est de réussir à *analyser une peinture* pour savoir ce que nous voulons *faire ressentir aux personnes malvoyantes*. Pour cela nous allons utiliser la base de donnée du Louvre qui nous donne accès à la fois aux peintures mais aussi à un texte descriptif. On pourra donc analyser l'image en soi et le texte, ce qui devrait nous permettre de choisir de manière plus précise les émotions qu'on souhaite faire ressentir aux personnes malvoyantes . Il s'agit ensuite retranscrire les émotions à travers des sensations auxquelles ces personnes ont accès en passant par *la musique, la chaleur et les vibrations*. Pour cela nous avons imaginé un dispositif composé d'un casque audio et d'un boitier.
+
+=== Lien entre le projet et le problème
+Ce projet permettrait ainsi de résoudre le problème initial, les personnes malvoyantes pourraient désormais ressentir réellement une oeuvre d'art. On pourrait même imaginer, si l'expérience sensorielle créee est suffisamment aboutie, qu'elle permette à tous de redécouvrir l'art visuel. Les analyses que nous allons faire ainsi que l'expérience nous souhaitons créer sont bien évidemment subjectives, il n'existe pas une seule façon de ressentir une oeuvre d'art.
+
+
+
+
+

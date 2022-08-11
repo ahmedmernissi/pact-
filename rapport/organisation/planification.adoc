@@ -1,0 +1,253 @@
+=== Planning temporel PACT
+
+==== Taches / PAN1 13/11/20
+
+===== Générales
+
+* rapport:
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|sujet | Laure-Amélie Colin | novembre | X |
+|sujet en anglais | Laure-Amélie Colin | novembre | X |
+|scenario | Laure-Amélie Colin, Quentin Ravaux, Loïc Marcadet, Ahmed Mernissi, Agathe Coutaux| octobre | X |
+|architecture (schéma et documentation) | Théophile Reverdell, Quentin Roques, Basile Rulh, Quentin Ravaux, Laure-Amélie Colin| 7-10-20 | X |
+|découpage en modules | Quentin Roques, Basile Rulh, Théophile Reverdell | 7-10-20 | X |
+|planning temporel (ce document, personnalisé) | Théophile Reverdell | 1-11-20 | X |
+|====
+
+* présentation 15mn
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|préparation du document | Agathe Coutaux Loïc Marcadet| novembre | X |
+|répartition de la parole | Quentin Roques | novembre | X |
+|répétition | Théophile | novembre | X |
+|====
+
+
+
+
+
+
+
+==== Taches / PAN2 20/01/20
+
+===== Générales
+
+* rapport
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|mise à jour selon remarques du jury | Le groupe | Novembre | X | Suppréssion du module Script 
+|mise à jour de l’architecture | Quentin Ravaux et Théophile Reverdell | Décembre | X |
+|interfaces | Loïc Marcadet | Décembre | X |
+|plan de test par module et global | Théophile Reverdel (global), chaque module pour lui-même | Tout au long de la période | X |
+|====
+
+* Prendre rdv avec vos experts pour le PAN2
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+| BDD | Basile Rulh et Ahmed Mernissi | 31 Janvier | X |
+| Son | Laure-Amélie Colin | 10 Février | X |
+| IA Image | Laure-Amélie Colin | 20 Janvier | X |
+| Test et intégration | Théophile Reverdell | 3 Février | X |
+| Systèmes embarqués | Quentin Roques | 22 Janvier | X |
+| SES | Quentin Roques | 10 Février | X |
+| Analyse de texte | Quentin Ravaux | 6 Janvier | X |
+|====
+
+===== Modules
+
+* Son
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Récupération d'une ambiance sonore sur MyNoise.net |novembre |X|
+|Plan de test |Décembre |X|
+|Récupération et spatialisation sonore d'un fichier son |janvier |X|
+|====
+
+* IA image
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Cours d'apprentissage de quelques principes du machine learning |novembre |X|
+|Cours d'apprentissage Pytorch |Décembre |X|
+|Implémentation et test de MaskRCNN |janvier |X|
+|====
+
+* SES 
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+| Recherche de personnes pour les entretiens | Novembre/Décembre | X | 
+| Premier entretien avec une déficiente visuelle | 10 Décembre | X |
+| Premier entretien avec un artiste | 7 Janvier | X |
+|====
+
+* Base de données
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Liste des requêtes |janvier |X|
+|Données à stocker |janvier|X|
+|schéma graphique des données à stocker|janvier|X|
+|====
+
+* Analyse de texte
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|cours d'apprentissage pour l'analyse du texte à l'aide du corpus bag of words |décembre |X|
+|écriture du code |janvier|X|
+|====
+
+* Test et intégration
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Création d'un plan de test et d'intégration avec test à effectuer et organisation de branch |janvier |X|
+|Formation au groupe sur les merge conflict |janvier |X|
+|Création de job init bdd |Février |X|
+|====
+
+* Systèmes embarqués 
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Prise en main d'une carte esp32 Huzzah32 |décembre |X|
+|Tests d'envoi de commandes à des vibreurs sur Arduino avec la modulation pwm |décembre |X|
+|Envoi et réception de données entre un programme Python et un programme Arduino |janvier |X|
+|====
+
+==== Tâches / PAN3 18/03/21
+
+===== Générales
+
+* Préparer un déroulé de la démo et du ``matériel'' de démo
+
+===== Modules
+
+* Son
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Récupération d'une ambiance sonore sur MyNoise.net |novembre |X|
+|Plan de test |Décembre |X|
+|Récupération et spatialisation sonore d'un fichier son |janvier |X|
+|Envoi de fichier son et de lien sur la BDD |avril|X|
+|Récupération de l'ambiance sonore et du bruitage|avril|X|
+|====
+
+* IA image
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Cours d'apprentissage de quelques principes du machine learning |novembre |X|
+|Cours d'apprentissage Pytorch |Décembre |X|
+|Implémentation et test de MaskRCNN |janvier |X|
+|Matrices des intensités des éléments à jouer du système embarqué |février |X|
+|Matrices des intensités des paramètres de l'ambiance sonore |mars |X|
+|Implémentation et test du nouveau MaskRCNN |||
+|Envoi des tableaux sur la BDD |avril|X|
+|Récupération des tableaux sur la BDD|avril|X|
+|====
+
+* SES : 
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+| Recherche de personnes pour les entretiens | Novembre/Décembre | X | 
+| Premier entretien avec une déficiente visuelle | 10 Décembre | X |
+| Premier entretien avec un artiste | 7 Janvier | X |
+| Recherche de nouvelles personnes pour des entretiens | mars | X |
+|====
+
+* Base de données
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Liste des requêtes |janvier |X|
+|Données à stocker |janvier|X|
+|schéma graphique des données à stocker|janvier|X|
+|code python pour la base de données |mars |X|
+|test |avril |X|
+|====
+
+* Analyse de texte
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|cours d'apprentissage pour l'analyse du texte à l'aide du corpus bag of words |décembre |X|
+|écriture du code |janvier|X||Apprentissage du module camembert|février|X|
+|écriture du code avec le module camembert|mars|X|
+|Test|avril|X|
+|====
+
+* Test et intégration
+
+[cols=",^,^,",options="header",]
+|====
+|Documentation fonctionnement gitlab CI |mars |X |
+|Création de job de test pour chaque module |avril |X |
+|Corection de bug lors de l'intégration des modules sur dev |avril |X |
+|Realisation d'un script pour créer la base de données via docker |avril |X |
+|====
+
+* Systèmes embarqués 
+
+[cols=",^,^,",options="header",]
+|====
+|Tâche |Quand |Fait |Remarques
+|Intégration du tissu chauffant et d'un ventilateur à notre circuit |février |X|
+|Décodage des matrices contenant les intensités de fonctionnement de chaque système sous Python |mars |X|
+|Envoi de données Python par communication bluetooth et réception par port série |avril | |
+|Réalisation du prototype physique avec l'agencement de tous les composants |avril |X|
+|Intégration d'un casque audio au circuit |avril |X|
+|====
+
+
+==== Tâches / PAN4 04/05/21
+
+===== Générales
+
+* poster pour le stand
+* présentation 4 slides
+* rapport: avancement, rapports de test
+
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|Poster en format A0|Loïc, Quentin, Agathe|début Mai|X| 
+|Modelisation 3d du prototype|Agathe|début|X|
+|Création des slides|Laure-Amélie|Mai|X|
+|Complétion du rapport|Tout le groupe|fin Mai|X|
+|====
+
+===== Modules
+[cols=",^,^,,",options="header",]
+|====
+|Tâche |Qui |Quand |Fait |Remarques
+|Ajout de tableaux dans la BDD |Théophile |Mai |X |
+|Intégration de MaskRCNN dans le projet |Laure-Amélie, Théophile |Mai | |
+|Fixation des bugs vibration |Agathe, Loïc, Quentin |Mai |X |
+|Test et implémentation du modèle Camembert |Quentin, Ahmed |Mai | |
+|Implémentation HRTF |Quentin, Laure-Amélie, Loïc |Mai | |
+|====

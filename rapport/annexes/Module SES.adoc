@@ -1,0 +1,30 @@
+=== Module SES
+
+==== Descriptions
+
+Notre projet cherche a mettre la technique aux service de deux univers très différents, dont nous ne faissont pas partie : les artistes et les déficients visuels. Notre module a donc pour objectif de confronter nos objectifs et nos idées pour voir si elles concordent avec ces millieux. 
+
+C'est en enjeu fondamental pour que notre projet soit effectivement au service des déficients, car nous n'expérimentons pas la même chose qu'eux et qu'il nous est donc difficile de se projeter dans leur utilisation. Il est aussi fondamental que nous restions cohérant avec les oeuvres originales.
+
+==== Avancement
+
+Nous avons commencé par lire un article, qui nous a aidé a mieux comprendre les enjeux de ce que nous envisagions en terme de médiation et des différents niveaux de lectures d'une œuvre d'art, puis nous avons décider de mener une enquête. Cette enquête vise deux publics : premièrement des déficients visuels, afin de comprendre leurs besoin et attentes et des artistes, pour savoir comment transcrire au mieux leurs œuvres en sensations. (On remarque pour le moment que les déficients visuels que nous interrogeons sont logiquement attirés par le milieu artistique et donc peuvent aussi nous aider sur ce deuxième point.)
+
+Nous avons pris contact avec l'association des chiens guide d'aveugle et un contact personnel pour leur demander si certains déficients visuels de l'association pourraient être intéressés par notre projet. En parallèle, nous avons conçu un questionnaire visant à récupérer les avis des déficients visuels. Il portait sur les priorités que nous devrions mettre en place, ainsi que sur les qualités que devait revêtir l'interface Homme-Machine. Nous avons finalement décidé d'utiliser ce questionnaire en tant que guide d'entretien lors des visioconférences avec une personne déficiente visuelle. 
+
+Nous avons donc proposé aux deux personnes intéressées d'organiser des entretiens pour qu'on puisse discuter avec elles de notre projet et ainsi recueillir leurs appréhensions, leur questions ainsi que leurs suggestions. Nous avons pour l'instant mené un seul entretien avec une déficiente visuelle également ariste. Cet entretien, que nous avons enregistré pour pouvoir en faire un rapport une fois qu'on aura réaliser d'autres entretiens et qu'on aura pris un peu de recul, s'est très bien passé et nous a permis d'éclaircir quelques points comme notamment la nécessité de la compatibilité entre notre expérience et le contact social, qui était pour cette personne sa motivation première la poussant à aller au musée.
+
+De plus cet entretien nous a permis de réellement nous rendre compte de l'intérêt de notre projet lorsque cette personne nous a expliqué le manque d'adaptation des musées vis-à-vis des déficients visuels, notamment par rapport à l'éclairage ou à la distance par rapport aux oeuvres. 
+
+Nous avons également pris contact avec des artistes pour prendre conscience de ce qu'impliquait "créer" une oeuvre et leur demander la démarche à suivre, les précautions à prendre. 
+
+Nous avons procédé de la même manière qu'avec les personnes déficientes en écrivant tout d'abord un questionnaire puis en organisant un entretien avec les artistes. 
+
+Nous avons mené un entretien avec un artiste qui nous a conforté dans notre idée qui était conseiller de commencer par des œuvres d'artistes vivants pour qu'on puisse travailler avec l'artiste sur l'adaptation de son œuvre. Il nous également apporté une idée très intéressante qui s'avère être une solution à un des problèmes qu'on avait soulevé auparavant : il nous a proposé de créer plusieurs scripts pour une même œuvre en s'appuyant sur le ressenti de différentes personnes ou par rapport à notre module IA en priorisant différentes informations de l’œuvre. Cela donnerait l'opportunité à l'utilisateur de se créer son propre avis et aussi de diminuer la subjectivité présente lors de la création de notre expérience.
+
+Nous avons contacter d'autres artistes et d'autres déficients visuels pour organiser des entretiens après les partiels. Notre objectif est au moins de pouvoir recueillir deux avis différents à chaque fois.
+
+
+==== Bibliographie spécifique
+
+https://journals.openedition.org/activites/752[Article : Ergonomie et domaine muséal]

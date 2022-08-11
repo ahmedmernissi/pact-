@@ -1,0 +1,4 @@
+=== Interface utilisateur graphique
+
+L'interface homme-machine sera l'un des principaux objectifs du module SES, c'est pourquoi nous ne pouvons pas pour l'instant vous expliquer en détail quelle sera l'interface utilisée dans notre projet. En effet l'objectif principal sera de rendre cette interface accessible aux personnes malvoyantes. Pour savoir comment réaliser cette interface nous allons contacter des personnes malvoyantes pour qu'elles nous indiquent ce dont elles ont besoin ou envie. 
+L'idée  est de permettre à l'utilisateur de selectionner l'oeuvre qu'il souhaite ressentir. Pour l'instant nous avons imaginé une interface audio, qui permettrait de sélectionner l'oeuvre avec deux boutons, de confirmer le choix grâce à un autre bouton et enfin de gérer le volume avec un deuxième binôme de boutons.

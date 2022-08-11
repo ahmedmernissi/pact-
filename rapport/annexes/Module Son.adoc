@@ -1,0 +1,18 @@
+=== Module Son
+
+==== Descriptions
+
+Dans ce module, l'objectif est de jouer une ambiance sonore durant tout le long de l'expérience et d'y ajouter un bruitage qui sera spatialisé.
+
+==== Avancement
+
+Dans un premier temps, nous nous sommes consacrés en novembre/décembre à utiliser le module de python Selenium qui nous a permis d'ouvrir sur Internet, sans l'interface graphique, le site MyNoise.net un créateur d'ambiance sonore. Lorsque nous entrons dans le programme le nom de l'ambiance que nous voulons écouter, celle çi est diffusée.
+Durant janvier, nous avons téléchargé un bruitage, celui d'un cheval au gallop et nous avons cherché à le spatialiser. Nous avons réussit à réaliser une spatialisation qui va de gauche à doite ou bien de droite à gauche.
+
+==== Bibliographie spécifique
+
+https://selenium-python.readthedocs.io/[Documentation de Selenium 1]
+
+https://realpython.com/modern-web-automation-with-python-and-selenium/[Documentation de Selenium 2]
+
+https://fr.wikipedia.org/wiki/Hrtf#:~:text=La%20fonction%20de%20transfert%20relative,qui%20permettent%20%C3%A0%20l'%C3%AAtre[Documentation sur l'HRTF]

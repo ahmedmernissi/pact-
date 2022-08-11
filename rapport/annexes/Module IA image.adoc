@@ -1,0 +1,19 @@
+=== Module IA image
+
+==== Descriptions
+
+Dans ce module, l'objectif est d'analyser l'image de l'œuvre à partir d'un programme d'IA afin de créer le script qui sera joué par les modules sons et système embarqué.
+
+==== Avancement
+
+Dans un premier temps, nous avons étudié des cours sur udacity pour comprendre les grands principes du deep learnin et manipuler quelques portions de code. Ensuite nous avons suivi des cours pour manipuler le module Pytorch de Python car nous allions nous en servir pour les programmes d'IA. Tout ceci à été réalisé durant novembre et décembre.
+Nous avons commencé fin décembre à implémenter et utiliser le code MaskRCNN, qui est un code qui, à partir d'une image, est capable de détecter des objets. Nous avons manipulé le programme jusqu'au PAN2 afin d'analyser les résultats obtenus avec des tableaux.
+Après le PAN2, nous avons commencé à nous interesser aux données que nous devions fournir aux autres modules. A partir de la couleur des pixel de l'image, nous en avons tiré une matrice pour le module Système embarqué afin de définir l'intensité des vibreurs, de la chaleur et du ventilateur. Nous en avons aussi tiré les intensité des différents éléments dans les ambiances sonores du module Son.
+
+==== Bibliographie spécifique
+
+https://classroom.udacity.com/courses/ud730[Cours Udacity]
+
+https://pytorch.org/tutorials/[Cours Pytorch]
+
+https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares[Support pour l'analyse de la couleur des images]

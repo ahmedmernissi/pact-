@@ -1,0 +1,13 @@
+=== Une idée déjà exploitée de manière différente
+
+L'idée que nous avons eu, de transcripter une oeuvre d'art par le biais d'autres moyens pour les personnes dont un des sens serait déficient, a déjà été exploitée. Il y a par exemple le Vibeat, un petit objet qui transforme les sons en vibrations, dont le lien du site Web est indiquée dans la bibliographie <<Vibeat>>. Des dispositifs lumineux ont également été imaginés, pour restranscrire des concerts ou des morceaux de musique à travers des images ou plus exactement des mouvements de couleurs et de formes sur un écran. Une autre technique utilisée est l'audio-description : elle a l'avantage de laisser place à l'imagination mais peut créer une idée de l'oeuvre d'art éloignée de la réalité. Un musée en Wallonie, dont le site est indiqué en bibliographie <<MuséeWallonie>>, a réalisé cette expérience. Le sens du touché a également beaucoup été exploité : de nombreuses expositions comme Orcam et Touch to see, référencées dans la bibliothèque <<Orcam>> <<TouchToSee>>, ont eu l'idée de mettre en relief des peintures afin que les personnes malvoyantes puissent les toucher pour visualiser mentalement l'oeuvre d'art.  
+
+
+=== Une expérience déjà tentée à Télécom Paris
+
+Nous ne sommes pas les premiers à avoir eu l'idée de retranscrire des oeuvres d'arts visuelles sous d'autres formes pour les malvoyants. Certains étudiants lors de précédents projets PACT avaient tenté de retranscrire des oeuvres d'art en 3D à l'aide d'un plateau de picots, qui retranscrirait l'oeuvre d'art en relief. L'avantage de ce procédé est que l'oeuvre d'art est retranscris fidèlement, c'est-à-dire qu'il n'y a pas d'interprétation artistique à réaliser par les étudiants. Cependant, l'expérience a été limitée par des aspects techniques. En effet, les étudiants ont finalement eu à utiliser des cubes de formes carrées, bien plus gros que des picots, ce qui a rendu très compliqué et très approximative la retranscription 3D des tableaux choisis. Pour ces raisons, nous avons vite abandonnée l'idée d'utiliser des picots pour retranscire le relief d'un tableau.
+ 
+
+=== Un projet qui reste original
+
+Bien que l'idée de retranscrire l'art par un autre sens existe déjà, notre approche est innovante et n'a pas d'équivalent déjà existant. En effet, elle inclut une dimension artistique en plus car le choix des sons, des vibrations, de la fréquence de l'apparition de chaleur ou de vent n'est pas arbitraire. De plus, l'idée d'un boîtier où seraient coordonnées toutes ces sensations est innovante et cet aspect de créer quelque chose de nouveau est d'autant plus motivant pour notre groupe de PACT. 

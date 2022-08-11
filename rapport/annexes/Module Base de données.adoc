@@ -1,0 +1,12 @@
+=== Module Base de données
+
+==== Descriptions
+Dans ce module, nous allons créer une base de données qui contient l’ensemble des oeuvres caractérisées par leurs ID et l’auteur de cet oeuvre. Nous stockerons d’un côté, dans cette base de données, l’ensemble des scripts produits contenant les sentiments extraits à l’aide du module analyse du texte et analyse d’image et d’un autre côté nous stockerons des fichiers son contenant des bruitages et des musiques permettant la lecture d’une oeuvre par un malvoyant.
+
+==== Avancement
+Dans un premier temps, nous nous sommes concentrés sur la recherche de l’ensemble des données à stocker dans notre base de données ainsi que la relation de ce module avec les autres modules de notre projet, après nous avons regroupé l’ensemble de ces données dans un schéma explicatif pour pouvoir organiser la création de notre base de données. Ensuite, nous avons cherché la liste des requêtes concernant les méthodes de lecture et d’écriture. Finalement, nous avons procédé à l’écriture des codes utilisant l’ensemble des requêtes disponibles.
+
+==== Bibliographie spécifique
+https://www.postgresql.org/files/documentation/pdf/13/postgresql-13-A4.pdf[Documentation PostgreSQL]
+
+https://www.psycopg.org/docs/index.html[Documentation psycopg]

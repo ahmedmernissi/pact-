@@ -1,0 +1,39 @@
+=== Description des interfaces (PAN1 / PAN2)
+////
+Pour le PAN1, il faut identifier et décrire sommairement toutes les
+interfaces entre modules.
+
+Pour le PAN2, il faut une description complête des interfaces.
+
+Il faut ici une description textuelle de chaque interface, c’est à
+dire +
+chaque échange entre deux blocs. Si c’est une interface entre deux
+blocs +
+informatiques, c’est une interface Java. S’il y a des échanges de +
+données complexes, il faut en décrire le format avec grande précision.
+Si c’est une interface +
+entre deux blocs électroniques, c’est une description des signaux +
+électroniques. Etc.
+////
+Cette partie concerne la description textuelle des interfaces entre les modules.
+
+==== Récupération de données/ Traitement d’image et de texte -> Création du script :
+
+Les données sur l’image et le texte fourniront des indications sur les sensations à restituer grâce à un script, au moyen de mots-clés et possiblement un texte renseignant sur le contexte de l’oeuvre. Le script sera un fichier stocké sur un serveur web afin d’être récupéré facilement par le boîtier pour chaque oeuvre.
+
+==== Interface Homme/Machine -> Boîtier :
+
+L’utilisateur sélectionne le tableau qui lui convient grâce à l’interface, ce qui permet au boîtier de charger l’expérience adaptée à chaque oeuvre.
+
+==== Base de données / Communication client/serveur <---> Boîtier : 
+
+En fonction de l’oeuvre, le boîtier communique avec la base de données et récupère alors le fichier correspondant à l’oeuvre afin savoir quelles sont les sensations, sons, etc. à restituer à l’utilisateur.
+
+==== Boîtier -> Systèmes embarqués -> Utilisateur :
+
+Le boîtier serait équipé de vibreurs et d’une résistance. La sensation de chaleur sera retransmise grâce à cette résistance chauffante. Les vibreurs serviront à transmettre des émotions comme la peur ou l’agitation par exemple.
+
+
+==== Boîtier -> Restitution du son -> Utilisateur 
+
+La diffusion du son en relation avec la peinture se ferait grâce à un casque fourni au spectateur, lié au boîtier. Le casque pourrait éventuellement produire un son en 3D qui retranscrirait des éléments comme les mouvements avec plus de détails.

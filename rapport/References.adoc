@@ -1,0 +1,16 @@
+* [[Vibeat]]Vibeat : _Site web de l'outil Vibeat_,
+https://www.grandlinetimes.net/Orbs/ecouter-la-musique-avec-son-corps-avec-vibeat/
+* [[MuséeWallonie]]MuséeWallonie : _Site web du musée de Wallonie_,
+https://amisdesaveugles.org/doc-doc_id-1162-lg-1-page-1-rub_id-104-site-1.html
+* [[Orcam]]Orcam : _Site web du dispotif Orcam_,
+https://www.orcam.com/fr/blog/art-handicap-visuel/
+* [[TouchToSee]]TouchToSee : _Site web de l'exposition Touch to see_,
+http://www.romain.dereusme.be/actualite/decouvrir-la-peinture-par-le-toucher-touch-to-see-sinstalle-a-ixelles/
+* [[PyTorch]]PyTorch : _Site web de PyTorch_,
+https://pytorch.org/
+* [[MaskRCNN]]MaskRCNN : _MaskRCNN_,
+https://github.com/facebookresearch/maskrcnn-benchmark
+* [[scikit-learn]]scikit-learn : _scikit-learn_,
+https://scikit-learn.org/stable/
+
+

@@ -1,0 +1,17 @@
+=== Module Analyse de texte
+
+==== Descriptions
+
+Ce module consiste à analyser la description textuelle de chaque oeuvre pour avoir plus d’informations. Notre module sera capable de comprendre les sentiments que provoque chaque oeuvre ou les éléments du tableau à partir des analyses effectuées.
+
+=== Avancement
+
+Dans un premier temps, nous avons cherché des méthodes qui convertissent des textes en vecteur. Ces vecteurs sont choisis de telle manière qu’ils prennent en compte le sens des mots et leur contexte d’utilisation. Ce qui permet de pouvoir rassembler des mots qui ont des vecteurs proches mathématiquement et d’en déduire qu’ils appartiennent au même champs lexical. Pour mieux comprendre le fonctionnement de cette technique, nous avons décidé de définir nous même ces vecteurs et de créer un réseau de neurones capable d’entraîner notre modèle. Au départ, ces vecteurs sont initialisés au hasard. Le but du réseau de neurones est de déterminer pour chaque
+mot quels mots sont présents dans une fenêtre prédéfinie. La rétro-propagation du réseau va affecter les paramètres du réseaux et les vecteurs des mots eux mêmes pour que ces derniers aient les propriétés souhaitées. Nous avons programmé ce réseaux ainsi que son entraînement sans utiliser d’autres bibliothèques que numpy. Ainsi nous avons pu comprendre comment ce genre de réseau était crée et entraîné. Malheureusement, notre réseau ne peut pas comprendre la complexité de la langue française avec quelques paramètres et une data très limitée.
+Pour résoudre ce problème, nous avons opté à la gamme de réseaux Bert et nous avons utilisé son homologue français Camembert, ensuite nous avons cherché à implémenter ce réseau dans un programme python à l’aide des bibliothèques « fast-bert » et « transformers » qui permettent d’adapter le réseau CamemBERT à notre problème mais aussi d’effectuer le pré- processing de manière directement compréhensible par le réseau.
+
+==== Bibliographie spécifique
+
+https://openclassrooms.com/fr/courses/4470541-analysez-vos-donnees-textuelles/4855001-representez-votre-corpus-en-bag-of-words[Représentation du corpus en « bag of words »]
+
+https://medium.com/@vitalshchutski/french-nlp-entamez-le-camembert-avec-les-librairies-fast-bert-et-transformers-14e65f84c148[Documentation Camembert]
